@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* content */
+    --content-primary: #FFFFFF;
+    --content-secondary: #C7C9CC;
+    --content-tertiary: #D9D9D9;
+    --content-brand: #C58DE7;
+    --color-inverse: #030203;
+
+    /* background */
+    --background-primary: #020202;
+    --background-secondary: #111012;
+    --background-tertiary: #24222E;
+    --background-brand: #C58DE7;
+    --background-gray: #3D3D3D;
+
+    /* accent */
+    --accent-pink: #D586E0;
+    --accent-blue: #91A1FA;
+    --accent-green: #77C0AA;
+    --accent-lime: #D1DC97;
+    --accent-red:  #E9A9B3;
+
+    /* gradient */
+    --gradient-border: linear-gradient(#77C0AF 0%, #D1DC97 14.84%, #E9A9B3 32.15%, #D586E0 65.79%, #91A1FA 84.58%);
+    --gradient-background: linear-gradient(#D586E0 0%, #91A1FA 98.93%);
+    --gradient-content: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.94) 100%);
+
+    /* tipografia */
+
+    /* === Font Families === */
+    --font-sora: 'Sora', sans-serif;
+    --font-roboto-flex: 'Roboto Flex', sans-serif;
+    --font-roboto-mono: 'Roboto Mono', monospace;
+
+    /* === Display (Sora) === */
+    --display-large-size: 72px;
+    --display-large-line-height: 130%;
+    --display-large-weight: 800;
+    --display-large-transform: uppercase;
+
+    --display-medium-size: 40px;
+    --display-medium-line-height: 130%;
+    --display-medium-weight: 800;
+    --display-medium-transform: uppercase;
+
+    --display-small-size: 32px;
+    --display-small-line-height: 130%;
+    --display-small-weight: 700;
+    --display-small-transform: uppercase;
+
+    /* === Paragraphs (Roboto Flex) === */
+    --paragraph-large-size: 16px;
+    --paragraph-large-line-height: 150%;
+    --paragraph-large-weight: 500;
+    --paragraph-large-transform: none;
+
+    --paragraph-medium-size: 14px;
+    --paragraph-medium-line-height: 150%;
+    --paragraph-medium-weight: 500;
+    --paragraph-medium-transform: none;
+
+    --paragraph-small-size: 12px;
+    --paragraph-small-line-height: 150%;
+    --paragraph-small-weight: 500;
+    --paragraph-small-transform: none;
+
+    /* === Labels (Roboto Flex) === */
+    --label-medium-size: 20px;
+    --label-medium-line-height: 150%;
+    --label-medium-weight: 700;
+    --label-medium-transform: none;
+
+    --label-small-size: 16px;
+    --label-small-line-height: 150%;
+    --label-small-weight: 700;
+    --label-small-transform: none;
+
+    /* === Overline (Roboto Mono) === */
+    --overline-size: 16px;
+    --overline-line-height: 150%;
+    --overline-weight: 700;
+    --overline-transform: uppercase;
+}
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+body {
+
+  background: url(../assets/Shapes.png), var(--gradient-content) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+                                                                                   
+}
