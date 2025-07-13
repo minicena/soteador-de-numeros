@@ -39,42 +39,23 @@
     --font-roboto-mono: 'Roboto Mono', monospace;
 
     /* === Display (Sora) === */
-    --display-large-size: 72px;
-    --display-large-line-height: 130%;
-    --display-large-weight: 800;
-    --display-large-transform: uppercase;
+    --display-large: 800 70px/130% 'Sora', sans-serif;
 
     --display-medium-size: 40px;
     --display-medium-line-height: 130%;
     --display-medium-weight: 800;
     --display-medium-transform: uppercase;
 
-    --display-small-size: 32px;
-    --display-small-line-height: 130%;
-    --display-small-weight: 700;
-    --display-small-transform: uppercase;
+    --font-display-small: 700 32px/130% 'Sora', sans-serif;
 
     /* === Paragraphs (Roboto Flex) === */
-    --paragraph-large-size: 16px;
-    --paragraph-large-line-height: 150%;
-    --paragraph-large-weight: 500;
-    --paragraph-large-transform: none;
-
-    --paragraph-medium-size: 14px;
-    --paragraph-medium-line-height: 150%;
-    --paragraph-medium-weight: 500;
-    --paragraph-medium-transform: none;
-
-    --paragraph-small-size: 12px;
-    --paragraph-small-line-height: 150%;
-    --paragraph-small-weight: 500;
-    --paragraph-small-transform: none;
+    
+    --font-paragraph-large: 500 16px/150% 'Roboto Flex', sans-serif;
+    --font-paragraph-medium: 500 14px/150% 'Roboto Flex', sans-serif;
+    --font-paragraph-small: 500 12px/150% 'Roboto Flex', sans-serif;
 
     /* === Labels (Roboto Flex) === */
-    --label-medium-size: 20px;
-    --label-medium-line-height: 150%;
-    --label-medium-weight: 700;
-    --label-medium-transform: none;
+    --font-label-medium: 700 20px/150% 'Roboto Flex', sans-serif;
 
     --label-small-size: 16px;
     --label-small-line-height: 150%;
@@ -82,20 +63,25 @@
     --label-small-transform: none;
 
     /* === Overline (Roboto Mono) === */
-    --overline-size: 16px;
-    --overline-line-height: 150%;
-    --overline-weight: 700;
+    --font-overline: 700 16px/150% 'Roboto Mono', monospace;
     --overline-transform: uppercase;
 }
-    html, body {
-      height: 100%;
-      margin: 0;
-      padding: 0;
-    }
-body {
 
-  background: url(../assets/Shapes.png), var(--gradient-content) ;
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(../assets/Shapes.png), var(--gradient-content);
   background-repeat: no-repeat;
   background-size: cover;
-                                                                                   
+  overflow-x: auto;
+}
+
+@media (max-width: 1366px) {
+  body {
+    overflow-x: scroll;
+  }
 }

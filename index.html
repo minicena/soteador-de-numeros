@@ -17,9 +17,68 @@
     <header>
         <div class="logo">
             <img src="./assets/logo.svg" alt="logo">
-            <h2>Numbers</h2>
+            <h2>NUMBERS</h2>
         </div>
-    </header>    
+    </header>  
+
+    <div class="container">
+        <div class="frame content">
+            <div class="descriptions">
+                <h3>ONLINE - GRATUITO</h3>
+                <h1>SORTEADOR DE NÚMEROS</h1>
+            </div>
+            <div class="questions">
+                <img src="./assets/question.svg" alt="question">
+                <div class="sub-content">
+                    <span>Como funciona o sorteador de números ?</span>
+                    <p>O sorteador utiliza um algoritmo de geração aleatória para criar números dentro do intervalo especificado pelo usuário.</p>
+                </div>
+            </div>
+            <div class="questions">
+                <img src="./assets/question.svg" alt="question">
+                <div class="sub-content">
+                    <h3><span>Posso escolher o intervalo dos números?</span></h3>
+                    <p>Sim, você pode definir os valores mínimo e máximo para o intervalo dos números sorteados.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="frame content-form">
+            <div class="title-form">
+                <h2>QUERO SORTEAR</h2>
+                <p>Defina o intervalo e a quantidade de números, clique em "Sortear" e veja os resultados na tela. É rápido e fácil!</p>
+            </div>
+            
+            <form >
+                <div class="fields">
+                    <div class="number-field">
+                        <label for="number1">NÚMEROS</label>
+                        <input type="number">
+                    </div>
+                    <div class="number-field">
+                        <label for="number2">DE</label>
+                        <input type="number">
+                    </div>
+                    <div class="number-field">
+                        <label for="number3">DE</label>
+                        <input type="number">
+                    </div>
+                </div>
+
+                <div class="toggle">
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+                <p>Não repetir número</p>
+                </div>
+              
+                <button type="submit">SORTEAR<img src="./assets/arrow.svg" alt=""></button>
+            </form>
+        </div>
+
+    </div>
+     
 
 
     <script src="scripts.js"></script>
