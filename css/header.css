@@ -1,6 +1,36 @@
 header {
-    & h2 {
-        font-family: var(--font-sora);
-        color: var(--content-primary);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & .logo {
+        margin: 4.75rem auto 5.56rem 7.43rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        gap: 0.8rem;
+
+
+        & h2 {
+            font-family: var(--font-sora);
+            font: var(--display-large);
+            font-size: 24px;
+            color: var(--content-primary);
+        }
     }
+}
+
+@media  (max-width: 1366px ){
+    header {  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        & .logo {
+            margin: 2.75rem 6.8rem 2.87rem 6.8rem;
+        }
+    }
+    
 }
