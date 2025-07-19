@@ -5,7 +5,7 @@
   margin: auto 8.37rem 9.56rem 8.37rem;
 }
 
-@media (max-width: 1366px) {
+@media (max-width: 768px) {
   .container {
     display: grid;
     grid-template-columns: 1fr; 
