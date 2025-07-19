@@ -1,6 +1,7 @@
 .content-form {
-        display: grid;
-        margin-top: 2.25rem;
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    margin-top: 2.25rem;
 
         & .title-form{
             margin-bottom: 2.5rem;
