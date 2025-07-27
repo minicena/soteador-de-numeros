@@ -58,3 +58,23 @@
         }  
     }
 }
+
+
+@media (max-width: 768px) {
+    .content-form {
+        width: 19.5rem;
+        height: 22.43rem;
+    }
+    .title-form {
+        & h2 {
+            font: var(--font-label-medium);
+        }
+
+        & p {
+            font: var(--font-paragraph-medium);
+            white-space: pre-line;
+            overflow-wrap: break-word;
+        }
+    }
+
+}

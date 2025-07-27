@@ -52,12 +52,9 @@
     --font-paragraph-small: 500 12px/150% 'Roboto Flex', sans-serif;
 
     /* === Labels (Roboto Flex) === */
+    --font-label-small: 700 16px/150% 'Roboto Flex', sans-serif;
     --font-label-medium: 700 20px/150% 'Roboto Flex', sans-serif;
-
-    --label-small-size: 16px;
-    --label-small-line-height: 150%;
-    --label-small-weight: 700;
-    --label-small-transform: none;
+    --font-label-large:  800 20px/150% 'Roboto Flex', sans-serif;
 
     /* === Overline (Roboto Mono) === */
     --font-overline: 700 16px/150% 'Roboto Mono', monospace;
@@ -65,7 +62,8 @@
 }
 
 html, body {
-  height: 100%;
+  width: 100%;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
 }
@@ -74,13 +72,13 @@ body {
   background: url(../assets/Shapes.png), var(--gradient-content);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+
 }
 
 
 @media (max-width: 768px) {
   html, body {
-    height: 100%;
-    width: 100%;
     overflow-x: auto;
     overflow-y: auto;
   }

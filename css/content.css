@@ -18,4 +18,14 @@
     }
 }
 
+@media (max-width: 768px) {
+    .content {
+       width: 19.93rem;
+       height: 8.5rem;
+       margin-bottom: 2.62rem;
 
+        & h1 {
+            font: var(--display-medium);
+        }
+    }
+}
